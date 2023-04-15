@@ -1,0 +1,91 @@
+:root {
+    --purple: #BB99DD; 
+}
+
+*{
+    text-decoration: none;
+}
+
+body {
+    height: 21vh;
+    width: 17vw;
+    margin: 12vh auto;
+    background-color: #E5E5E5;
+    font-family: Poppins;
+}
+
+
+.profile_image{
+    width: 207px;
+    height: 207px;
+    margin:0 auto;
+    border: 2px solid var(--purple);
+    border-radius: 50%;
+    position: relative;
+}
+
+.profile_image .image{
+    width: 200px;
+    height: 200px;
+    margin: 4px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.profile_image img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.source{
+    color:var(--purple);
+}
+
+.source p{
+    text-align: center;
+}
+
+.links {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.link{
+    display: flex;
+    width: 326px;
+    height: 49px;
+    border: 2px solid var(--purple);
+    border-radius: 4px;
+    margin: 20px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.link h3{
+    font-weight: bold;
+    color: var(--purple);
+    margin: 8px 0;
+}
+
+.assets{
+    width: 24px;
+    height: 24px;
+    border-radius: 8px;
+}
+
+.link:hover{
+    background-color: var(--purple);
+    border: 2px solid white;
+    transition: 200ms;
+}
+
+.link:hover h3{
+    color: white;
+}
+
+.link:hover img{
+    background-color: white;
+}
